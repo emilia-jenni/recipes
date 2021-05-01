@@ -7,3 +7,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+.card {
+  background: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #787878;
+  border: 10px solid #f4f4f4;
+  position: relative;
+}

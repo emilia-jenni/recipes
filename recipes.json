@@ -1,0 +1,169 @@
+{
+  "recipes": [
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Salted Caramel",
+      "image": ["https://source.unsplash.com/EZlAKT3x3pg/1600x900"],
+      "recipeCategory": "dessert",
+      "prepTime": "PT10M",
+      "cookTime": "PT10M",
+      "totalTime": "PT30M",
+      "datePublished": "2021-04-19",
+      "description": "The union of sweet and savory always works. Finish your desserts with salty caramel!",
+      "keywords": "salty, sweet, salty caramel, dessert",
+      "recipeIngredient": [
+        "2dl Brown sugar",
+        "2dl Double cream",
+        "3/4tsp Seasalt"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Measure brown sugar and cream into a saucepan. Heat until boiling and stir while it cooks up into a thickened sauce, about 10 minutes."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Take the saucepan from the stove, season with salt, and let it cool down. The sauce will thicken in the fridge."
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Naan Bread",
+      "image": ["https://source.unsplash.com/ht8LS00RUWA/1600x900"],
+      "recipeCategory": "side dish",
+      "recipeCuisine": "Nepalese",
+      "prepTime": "PT45M",
+      "cookTime": "PT5M",
+      "totalTime": "PT1H",
+      "recipeYield": "4",
+      "datePublished": "2021-04-19",
+      "description": "Easy recipe for delicious Naan Bread",
+      "keywords": "naan bread, nepalese, side dish, bread",
+      "recipeIngredient": [
+        "2 dl water",
+        "2 dl Turkish yogurt",
+        "1 pcs dry yeast",
+        "1 tbs honey",
+        "1 tsp salt",
+        "6-7 dl flour",
+        "2 tbs oil",
+        "50 g melted butter",
+        "3 gloves of garlic",
+        "Herbs",
+        "Salt"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Mix together dry yeast and about 3dl flours. Heat water to 42-45 degrees, add in salt and honey. Add in the flours that have the yeast mixed in. Add in room temperature yogurt and keep adding the flour. Knead the dough properly"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Leave the dough to rise under a towel for at least 30 minutes."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Set the oven to 250 C"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add oil into the dough and knead it. Make a stick out of the dough and divide it into 4 or 8 pieces(depending if you want smaller or bigger pieces). Press the dough balls flat and place them on the parchment paper, cover for additional 15 minutes with a towel."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Sprinkle water water over the pieces, bake for about 5 minutes on the middle level."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Melt the butter and grate the garlic gloves in. You might want to also add some herbs in. Butter the breads generously and enjoy!"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Jalopeño Popper Grilled Cheese",
+      "image": ["https://source.unsplash.com/ZB8NK8cB4EE/1600x900"],
+      "recipeCategory": "snack",
+      "prepTime": "PT10M",
+      "cookTime": "PT7M",
+      "totalTime": "PT17M",
+      "recipeYield": "2",
+      "datePublished": "2021-04-19",
+      "description": "Jalapeño popper grilled cheese sandwiches are for any sort of spicy food fan but especially for the jalapeño poppers lovers of the world. Made with pickled jalapeños, cream cheese, and good ol' American cheese, these sandwiches are always a big hit in my house, especially on cold and blustery days.",
+      "keywords": "grilled cheese, jalopeño, snack, bread",
+      "recipeIngredient": [
+        "4 slides of bread",
+        "Butter, softened",
+        "Pickled Jalapeño slices, according to taste",
+        "Sliced American cheese(or cheese of your choice) 2-3 slices per sandwich"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Heat a large non-stick frying pan over medium-low heat"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Lightly butter one side of all the bread slices"
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Divide the cream cheese between two of the slices, spreading it out evenly on the un-buttered side of the bread. Lay the jalapeños halves over the cream cheese. Lay the American cheese over the jalapeños and add the second piece of bread, butter side up."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Place the sandwiches in the pan and cover the pan with a lid or piece of aluminum foil; this will help to retain the heat in the pan and melt the cheese. Heat each side of the sandwich until desired darkness and until the cheese inside is melted. Slice and serve warm."
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Blue Cheese Risotto",
+      "image": ["https://source.unsplash.com/qIPRTMulc-g/1600x900"],
+      "recipeCategory": "main course",
+      "recipeCuisine": "Italian",
+      "prepTime": "PT10M",
+      "cookTime": "PT22M",
+      "totalTime": "PT32M",
+      "recipeYield": "4",
+      "datePublished": "2021-04-19",
+      "description": "Risotto is one of my favorite dishes, here's a new, delicious version of it",
+      "keywords": "risotto, blue cheese, italian",
+      "recipeIngredient": [
+        "2-3 shallots",
+        "1 garlic glove",
+        "25g butter",
+        "2dl risotto rice",
+        "1tbs white vinegar",
+        "2dl dry white wine (or water)",
+        "1l chicken stock",
+        "25g butter",
+        "1pcs(170g) blue cheese",
+        "Black pepper"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Peel and dice the shallots. Sauté the onions in butter in a pan. Add in rice and sauté for a moment."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add in white vinergar and half of the white wine, let evaporate. Add in the rest of the wine and start adding chicken stock gradually. Let the liquid be absorbed first before adding in more. Boil on medium-heat for 22 minutes in total. Stir whenever needed but avoid unnecessary stirring so the rice doesn't come apart."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Once the rice is al dente, add in butter and 3/4 of blue cheese in crumbles. Stir."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish risotto with the rest of the blue cheese and black pepper. Serve immediately."
+        }
+      ]
+    }
+  ]
+}

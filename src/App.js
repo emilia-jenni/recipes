@@ -1,10 +1,18 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <Header />
+      <Main />
+      <Footer />
+    </Router>
   );
 };
 
