@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +10,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+main {
+  min-height: 70vh;
 }
 
 .card {
@@ -31,4 +39,54 @@ html {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   list-style: none;
+}
+
+#herobanner {
+  min-height: 80vh;
+  background: url("https://source.unsplash.com/x5SRhkFajrA/1600x900") no-repeat
+    fixed center center/cover;
+  text-align: center;
+}
+
+#herobanner h1 {
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+  color: mintcream;
+}
+
+#herobanner p {
+  font-size: 2rem;
+  font-family: "EB Garamond", serif;
+  color: mintcream;
+}
+
+header {
+  font-family: "Dancing Script", cursive;
+  min-height: 10vh;
+  text-align: center;
+  display: flex inline-block;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  background-color: #e4dbd4;
+}
+
+header nav ul {
+  padding: 30px 0;
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  color: #222121;
+  min-height: 5vh;
+  background-color: #e4dbd4;
+  font-family: "EB Garamond", serif;
 }
