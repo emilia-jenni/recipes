@@ -1,13 +1,13 @@
 import React from "react";
-
-import Nav from "./Nav";
+import logo from "../assets/Logo.svg";
 import "./Header.css";
+import MainNav from "./MainNav";
 
 const Header = () => {
   return (
     <header>
-      <h1>Taste the World</h1>
-      <Nav />
+      <img className="logo" src={logo} alt="logo" />
+      <MainNav />
     </header>
   );
 };

@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div>Copyright</div>
+      <div>Copyright © emilia_jenni</div>
     </footer>
   );
 };
