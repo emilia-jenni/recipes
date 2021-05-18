@@ -1,13 +1,15 @@
 import React from "react";
 import logo from "../assets/Logo.svg";
-import "../App.css";
 import MainNav from "./MainNav";
+import Navbar from "react-bootstrap/Navbar";
 
 const Header = () => {
   return (
     <header>
-      <img className="logo" src={logo} alt="logo" />
-      <MainNav />
+      <Navbar bg="light" expand="lg">
+        <img className="logo" src={logo} alt="logo" />
+        <MainNav />
+      </Navbar>
     </header>
   );
 };

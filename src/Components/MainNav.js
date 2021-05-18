@@ -1,24 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import { LinkContainer } from "";
 
-import "../App.css";
-
-const Nav = () => {
+const MainNav = () => {
   return (
-    <nav>
+    <Nav bg="light" expand="lg">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Nav.Link to="/">Home</Nav.Link>
         </li>
         <li>
-          <Link to="/recipes">Recipes</Link>
+          <Nav.Link to="/recipes">Recipes</Nav.Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Nav.Link to="/about">About</Nav.Link>
         </li>
       </ul>
-    </nav>
+    </Nav>
   );
 };
 
-export default Nav;
+export default MainNav;

@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 import RecipeForm from "../Components/RecipeForm";
 import SearchBox from "../Components/SearchBox";
 import RecipesList from "../Components/RecipesList";
 
-//import React, { useEffect } from "react";
-
 const Recipes = () => {
-  /* useEffect(() => {
+  const [setRecipe] = useState([]);
+  useEffect(() => {
     axios
-      .get("http://localhost:3001/recipes/" + id)
+      .get("http://localhost:3001/recipes/")
       .then((res) => setRecipe(res.data));
-  });*/
+  });
 
   return (
     <section id="recipes">
