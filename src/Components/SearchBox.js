@@ -1,14 +1,15 @@
 import React from "react";
+import Form from "react-bootstrap/Form";
 
-const SearchBox = (props) => {
+const SearchBox = ({ search }) => {
   return (
-    <div>
-      <input
+    <Form.Group>
+      <Form.Control
         type="text"
-        onChange={props.search}
+        onChange={search}
         placeholder="Search for recipes"
       />
-    </div>
+    </Form.Group>
   );
 };
 

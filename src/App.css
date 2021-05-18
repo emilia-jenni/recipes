@@ -90,3 +90,33 @@ footer {
   background-color: #e4dbd4;
   font-family: "EB Garamond", serif;
 }
+
+#recipes {
+  min-height: 80vh;
+  background: url("https://source.unsplash.com/KI5P0zOMYVw/1600x900") no-repeat
+    fixed center center/cover;
+  text-align: center;
+}
+
+label {
+  font-family: "EB Garamond", serif;
+  font-size: 2rem;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 250px;
+}
+
+form {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#submitbutton {
+  width: 200px;
+  padding: 15px;
+}

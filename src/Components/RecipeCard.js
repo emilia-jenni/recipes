@@ -1,12 +1,17 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 
 const RecipeCard = ({ name, image, totalTime }) => {
   return (
-    <div className="card">
-      <img src={image} alt={name} />
-      <h2>{name}Hello</h2>
-      <em>{totalTime}</em>
-    </div>
+    <>
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={image} />
+        <Card.Body>
+          <Card.Title>{name}</Card.Title>
+          <Card.Text>{totalTime}</Card.Text>
+        </Card.Body>
+      </Card>
+    </>
   );
 };
 

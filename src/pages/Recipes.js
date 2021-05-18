@@ -1,13 +1,25 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Recipes extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Recipes here</h1>
-      </div>
-    );
-  }
-}
+import RecipeForm from "../Components/RecipeForm";
+import SearchBox from "../Components/SearchBox";
+import RecipesList from "../Components/RecipesList";
+
+//import React, { useEffect } from "react";
+
+const Recipes = () => {
+  /* useEffect(() => {
+    axios
+      .get("http://localhost:3001/recipes/" + id)
+      .then((res) => setRecipe(res.data));
+  });*/
+
+  return (
+    <section id="recipes">
+      <SearchBox />
+      <RecipeForm />
+      <RecipesList />
+    </section>
+  );
+};
 
 export default Recipes;
