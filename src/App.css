@@ -22,17 +22,13 @@ main {
   box-shadow: 0 0 5px #787878;
   border: 10px solid #f4f4f4;
   position: relative;
+  font-family: "Dancing Script", cursive;
 }
 
 .card img {
-  object-fit: cover;
-  width: 100%;
-  max-height: 150px;
+  min-height: 250px;
 }
 
-.card h2 {
-  padding: 0.1rem 1rem;
-}
 .posts {
   display: grid;
   align-items: flex-start;
@@ -42,7 +38,8 @@ main {
 }
 
 #herobanner {
-  min-height: 80vh;
+  margin-top: 120px;
+  min-height: 82vh;
   background: url("https://source.unsplash.com/x5SRhkFajrA/1600x900") no-repeat
     fixed center center/cover;
   text-align: center;
@@ -52,6 +49,7 @@ main {
   font-size: 5rem;
   font-family: "Dancing Script", cursive;
   color: mintcream;
+  padding-top: 200px;
 }
 
 #herobanner p {
@@ -59,7 +57,6 @@ main {
   font-family: "EB Garamond", serif;
   color: mintcream;
 }
-
 
 footer {
   margin: 0 auto;
@@ -71,31 +68,56 @@ footer {
 }
 
 #recipes {
+  margin-top: 130px;
   min-height: 80vh;
-  background: url("https://source.unsplash.com/KI5P0zOMYVw/1600x900") no-repeat
+  background: url("https://source.unsplash.com/EWDvHNNfUmQ/1600x900") no-repeat
     fixed center center/cover;
   text-align: center;
 }
 
+#about {
+  margin-top: 130px;
+  min-height: 80vh;
+  background: url("https://source.unsplash.com/EWDvHNNfUmQ/1600x900") no-repeat
+    fixed center center/cover;
+  text-align: center;
+}
+
+#about p {
+  padding-top: 200px;
+  font-size: 1.5rem;
+}
+
 label {
   font-family: "EB Garamond", serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  display: inline-block;
 }
 
 input {
   padding: 10px;
   border-radius: 5px;
   margin: 10px auto;
-  width: 250px;
 }
 
-form {
+.form {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+  width: 800px;
+  border: 1px solid #222121;
+  background-color: mintcream;
+  box-shadow: 0 0 5px #222121;
 }
 
-#submitbutton {
+.submitbtn {
   width: 200px;
   padding: 15px;
+}
+
+.recipecard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }

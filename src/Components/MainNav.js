@@ -1,21 +1,23 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import { LinkContainer } from "";
+import { LinkContainer } from "react-router-bootstrap";
+import { IndexLinkContainer } from "react-router-bootstrap";
 
 const MainNav = () => {
   return (
-    <Nav bg="light" expand="lg">
-      <ul>
-        <li>
-          <Nav.Link to="/">Home</Nav.Link>
-        </li>
-        <li>
-          <Nav.Link to="/recipes">Recipes</Nav.Link>
-        </li>
-        <li>
-          <Nav.Link to="/about">About</Nav.Link>
-        </li>
-      </ul>
+    <Nav variant="tabs" defaultActiveKey="/home">
+      <IndexLinkContainer to="/">
+        <Nav.Link>Home</Nav.Link>
+      </IndexLinkContainer>
+      <LinkContainer to="/recipes">
+        <Nav.Link>Recipes</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to="/addrecipes">
+        <Nav.Link>Add Recipes</Nav.Link>
+      </LinkContainer>
+      <LinkContainer to="/about">
+        <Nav.Link>About</Nav.Link>
+      </LinkContainer>
     </Nav>
   );
 };
