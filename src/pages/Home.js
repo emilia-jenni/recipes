@@ -5,10 +5,10 @@ const Home = () => {
     <div>
       <section id="herobanner">
         <h1>Welcome to my recipes!</h1>
-        <p>
+        <div>
           Here you can find your recipes and take a trip to different courses
           and cuisines
-        </p>
+        </div>
       </section>
     </div>
   );
