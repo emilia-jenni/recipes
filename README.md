@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was our school React JS course project as a part of the Full Stack Web Development Program at Business College Helsinki
 
-## Available Scripts
+## Technologies used
 
-In the project directory, you can run:
+Built with:
 
-### `npm start`
+- HTML
+- JS
+- CSS
+- React JS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setup and usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To use run:
 
-### `npm test`
+```bash
+npm install
+npm install axios
+npm install react-bootstrap bootstrap
+npm install react json-server --save dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Authors and acknowledgment
+Author:
+Emilia Vuorenmaa
 
-### `npm run build`
+GitHub @emilia_jenni
+Acknowledgement:
+Margit Tennosaar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Task List
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Task 01 - Building the base app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Make a clean create-react-app
+- Clean it and start to work with it
+- Make App, Header, Main, Footer, Nav, Home, Recipes, About components
+- Using React Router set up simple navigation with three pages – home, recipes, about
+- Start styling your app
 
-### `npm run eject`
+### Task 02 - Create a development database
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Create a json file which contains some recipes
+- Have a new page “Recipes” – where GET list of all recipies from db.json
+- In Recipes page, include a search for your recipes
+- Make meaningful commits, so teacher can see what you have been doing there
+- Post your project GH link to group Teams wiki
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Personal Task List
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Have a placeholder for images that are still loading
+- Add a reset button next to the search bar on the recipe page
+- On mobile, visually indicate horizontal scrolling and seperate categories
