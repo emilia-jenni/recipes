@@ -4,8 +4,11 @@ const Home = () => {
   return (
     <div>
       <section id="herobanner">
-        <h1>Moikkamoi!!!</h1>
-        <p>tämmöstä nyt sitte juu</p>
+        <h1>Welcome to my recipes!</h1>
+        <p>
+          Here you can find your recipes and take a trip to different courses
+          and cuisines
+        </p>
       </section>
     </div>
   );
