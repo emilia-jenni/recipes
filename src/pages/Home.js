@@ -7,7 +7,7 @@ const Home = () => {
         <h1>Welcome to my recipes!</h1>
         <p>
           Here you can find your recipes and take a trip to different courses
-          and cuisines
+          and cuisines from around the world
         </p>
       </section>
     </div>
